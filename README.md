@@ -4,17 +4,16 @@
 
 - [SpringBoot热部署](spring-boot-devtools)
 
+- 日志管理
+
+- [SpringBoot整合mybatits](spring-boot-mybatits)
+
+- [SpringBoot整合mybatits-plus](spring-boot-mybatits-plus)
 
 - [SpringBoot2.x部署ssl证书](spring-boot-https)
 
-
-- 日志管理
-
-- 整合mybatits
-
 - springboot使用jsp
 
-- 整合mybatits-plus
 
 - AOP和自定义注解
 
