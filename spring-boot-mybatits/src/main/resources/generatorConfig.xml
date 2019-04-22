@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+
+    <classPathEntry
+            location="/Users/suyu/.m2/repository/mysql/mysql-connector-java/5.1.43/mysql-connector-java-5.1.43.jar"/>
+
+    <context id="common-model" targetRuntime="MyBatis3">
+
+        <commentGenerator>
+            <!--阻止生成的注释包含时间戳，默认为false-->
+            <property name="suppressDate" value="true"/>
+            <!--关闭自动生成的注释-->
+            <property name="suppressAllComments" value="true"/>
+        </commentGenerator>
+
+        <!--数据库连接地址-->
+        <jdbcConnection connectionURL="jdbc:mysql://127.0.0.1:3306/mybatits-test"
+                        driverClass="com.mysql.jdbc.Driver" password="adminadmin" userId="root" />
+        <!--生成实体类的包名配置-->
+        <javaModelGenerator targetPackage="com.niezhiliang.spring.boot.mybatits.domain"
+                            targetProject="src/main/java" >
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <!--生成xml文件的路径配置-->
+        <sqlMapGenerator targetPackage="mappers"
+                         targetProject="src/main/resources" >
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <!--生成mapper文件的路径配置-->
+        <javaClientGenerator targetPackage="com.niezhiliang.spring.boot.mybatits.mapper"
+                             targetProject="src/main/java" type="XMLMAPPER" >
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <!--实体类生成规则配置-->
+        <table tableName="user" domainObjectName="User"
+        enableCountByExample="true"
+        enableUpdateByExample="true"
+        enableDeleteByExample="true"
+        enableSelectByExample="true"
+        selectByExampleQueryId="true"
+        >
+        <!--按驼峰命名生成实体类类名-->
+        <property name="useActualColumnNames" value="true" />
+
+        <!--数据插入数据库后，实体类自动封装返回主键id-->
+        <generatedKey column="id" sqlStatement="MySql" identity="true"/>
+        </table>
+
+    </context>
+</generatorConfiguration>
