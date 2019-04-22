@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  httpPort: 8888
+  ssl:
+    #证书路径 一般都是放在根目录
+    key-store: classpath:ssl.jks
+    #证书的密码
+    key-password: 123456
+    #证书的类型
+    key-store-type: JKS
+    #证书别名
+    key-alias: huluwa
