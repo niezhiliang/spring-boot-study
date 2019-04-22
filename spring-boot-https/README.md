@@ -92,6 +92,9 @@ public class HttpsConfig {
 - 部署了证书以后，就不能使用`http`协议来访问项目啦，项目会强制跳转到`https`
 
 
+ 项目地址：https://github.com/niezhiliang/spring-boot-study/tree/master/spring-boot-https
+
+
 
 
 

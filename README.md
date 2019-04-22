@@ -1,6 +1,6 @@
 ### 工作中遇到的一些SpringBoot项目技术
 
-- springboot热部署
+- [SpringBoot热部署](spring-boot-devtools)
 
 
 - [SpringBoot2.x部署ssl证书](spring-boot-https)
