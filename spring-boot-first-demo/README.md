@@ -78,7 +78,7 @@ public class Application {
 
 #### 6.注意
 
-- springboot默认的端口也是`8080`，如果想修改，直接在resources目录创建一个`application.yml`
+- springboot默认的端口也是`8080`，如果想修改，直接在resources目录创建一个`application.yml` 
 
 `yml`是一种配置文件编写的语法，我们以前一般用到的都是`.propertits`文件，`yml`可以让配置看起来更简洁，看起来舒服很多。
 内容如下：
