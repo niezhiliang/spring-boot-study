@@ -88,3 +88,5 @@ server:
   port: 8088
 ```
 
+项目地址:https://github.com/niezhiliang/spring-boot-study/tree/master/spring-boot-first-demo
+
