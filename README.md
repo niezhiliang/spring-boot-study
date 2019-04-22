@@ -12,8 +12,9 @@
 
 - [SpringBoot2.x部署ssl证书](spring-boot-https)
 
-- springboot使用jsp
+- [SpringBoot整合JSP](spring-boot-jsp)
 
+- [SpringBoot全局异常处理](spring-boot-global-exception)
 
 - AOP和自定义注解
 

@@ -15,6 +15,8 @@
         <module>spring-boot-mybatits</module>
         <module>spring-boot-first-demo</module>
         <module>spring-boot-mybatits-plus</module>
+        <module>spring-boot-jsp</module>
+        <module>spring-boot-global-exception</module>
     </modules>
 
     <parent>
