@@ -1,5 +1,7 @@
 ### 工作中遇到的一些SpringBoot项目技术
 
+- [第一个SpringBoot项目](spring-boot-first-demo) 
+
 - [SpringBoot热部署](spring-boot-devtools)
 
 
