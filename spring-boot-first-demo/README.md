@@ -8,7 +8,11 @@
 
 这里我们就叫`spring-boot-first-demo`,项目目录如下：
 
+初始项目结构
+
 ![原始结构](https://github.com/niezhiliang/spring-boot-study/blob/master/spring-boot-first-demo/imgs/root.png)
+
+这是最终项目结构
 
 ![最终结构](https://github.com/niezhiliang/spring-boot-study/blob/master/spring-boot-first-demo/imgs/finish.png)
 
