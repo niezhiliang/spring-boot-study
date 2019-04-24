@@ -24,4 +24,6 @@
 
 - 整合mongodb
 
+- [SpringBoot整合websocket](https://github.com/niezhiliang/springbootwebsocket)
+
 - docker插件使用
