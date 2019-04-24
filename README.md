@@ -18,12 +18,10 @@
 
 - AOP和自定义注解
 
-- 整合redis
+- [SpringBoot整合redis](spring-boot-redis)
 
-- 整合rabbitmq
+- [SpringBoot整合rabbitmq](https://github.com/niezhiliang/springboot-rabbitmq)
 
 - 整合mongodb
-
-- 全局异常
 
 - docker插件使用

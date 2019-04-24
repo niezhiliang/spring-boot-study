@@ -17,6 +17,7 @@
         <module>spring-boot-mybatits-plus</module>
         <module>spring-boot-jsp</module>
         <module>spring-boot-global-exception</module>
+        <module>spring-boot-redis</module>
     </modules>
 
     <parent>

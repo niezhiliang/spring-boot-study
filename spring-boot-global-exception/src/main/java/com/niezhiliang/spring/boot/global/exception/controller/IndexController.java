@@ -19,6 +19,7 @@ public class IndexController {
      */
     @RequestMapping(value = "business")
     public String business(String msg) {
+
         if (msg == null) {
             throw new BusinessException("参数不能为空");
         }
