@@ -73,4 +73,5 @@ public class RedisTools {
         return stringRedisTemplate.hasKey(key);
     }
 
+
 }

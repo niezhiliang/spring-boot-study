@@ -4,7 +4,7 @@
 
 - [SpringBoot热部署](spring-boot-devtools)
 
-- 日志管理
+- [SpringBoot日志管理](spring-boot-logs)
 
 - [SpringBoot整合mybatits](spring-boot-mybatits)
 

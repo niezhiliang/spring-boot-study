@@ -18,6 +18,7 @@
         <module>spring-boot-jsp</module>
         <module>spring-boot-global-exception</module>
         <module>spring-boot-redis</module>
+        <module>spring-boot-logs</module>
     </modules>
 
     <parent>
