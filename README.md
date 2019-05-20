@@ -20,6 +20,8 @@
 
 - [SpringBoot整合redis](spring-boot-redis)
 
+- [Redis限流](spring-boot-current-limite)
+
 - [SpringBoot整合rabbitmq](https://github.com/niezhiliang/springboot-rabbitmq)
 
 - 整合mongodb
