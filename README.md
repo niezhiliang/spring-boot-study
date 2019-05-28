@@ -24,7 +24,7 @@
 
 - [SpringBoot整合rabbitmq](https://github.com/niezhiliang/springboot-rabbitmq)
 
-- 整合mongodb
+- [SpringBoot整合mongodb](spring-boot-mongodb)
 
 - [SpringBoot整合websocket](https://github.com/niezhiliang/springbootwebsocket)
 
