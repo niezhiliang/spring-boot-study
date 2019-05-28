@@ -20,6 +20,7 @@
         <module>spring-boot-redis</module>
         <module>spring-boot-logs</module>
         <module>spring-boot-current-limite</module>
+        <module>spring-boot-mongodb</module>
     </modules>
 
     <parent>
