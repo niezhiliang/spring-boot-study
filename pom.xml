@@ -21,6 +21,7 @@
         <module>spring-boot-logs</module>
         <module>spring-boot-current-limite</module>
         <module>spring-boot-mongodb</module>
+        <module>spring-boot-jwt</module>
     </modules>
 
     <parent>

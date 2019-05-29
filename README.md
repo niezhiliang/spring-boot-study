@@ -28,4 +28,6 @@
 
 - [SpringBoot整合websocket](https://github.com/niezhiliang/springbootwebsocket)
 
+- [SpringBoot整合JWT](spring-boot-jwt)
+
 - docker插件使用
