@@ -1,9 +1,13 @@
 package com.niezhiliang.spring.boot.redis.controller;
 
+import com.niezhiliang.spring.boot.redis.utils.RedisListTools;
 import com.niezhiliang.spring.boot.redis.utils.RedisTools;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @Author NieZhiLiang
@@ -11,10 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
  * @Date 2019/4/24 下午7:18
  */
 @RestController
-public class RedisController {
+public class StringController {
 
     @Autowired
     private RedisTools redisTools;
+
 
     /**
      * 保存

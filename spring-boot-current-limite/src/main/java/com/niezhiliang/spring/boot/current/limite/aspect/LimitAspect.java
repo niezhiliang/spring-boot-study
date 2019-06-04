@@ -86,7 +86,7 @@ public class LimitAspect {
      * 限流脚本
      * 调用的时候不超过阈值，则直接返回并执行计算器自加。
      *
-     * @return lua脚本
+     * @return lua脚本  redis.call('sort',KEYS[1])
      */
     private String buildLuaScript() {
         return "local c" +
