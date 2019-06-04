@@ -30,4 +30,6 @@
 
 - [SpringBoot整合JWT](spring-boot-jwt)
 
+- [SpringBoot整合Quartz并持久化](spring-boot-quartz)
+
 - docker插件使用
